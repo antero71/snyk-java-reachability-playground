@@ -13,8 +13,6 @@ jobs:
         java-version: '17'
         distribution: 'adopt'
         cache: maven
-    - name: Build with Maven cloud
-      run:  
     - name: SonarCloud Scan
       uses: SonarSource/sonarcloud-github-action@master
       env:
